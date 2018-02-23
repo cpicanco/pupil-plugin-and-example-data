@@ -12,15 +12,15 @@ screen
 ```
 (2)
 check_gaze_drift.r
-get_button_rate.r
-get_gaze_rates.r
+get_button_props.r
+get_gaze_props.r
 util_correct.r
 util_obtain.r
 ```
 
 five R scripts for gaze-coordinates correction and analysis (the first three are
 data-analysis scripts, the last two are script utilities called by the former;
-util_correct.r contains source code for cloud-center correction)
+`util_correct.r` contains source code for cloud-center correction)
 
 ```
 (3)
@@ -37,7 +37,7 @@ p1
 ...
 ```
 
-a tree of data files that can be analyzed through these R scripts.
+a tree of data files that can be analyzed through these R scripts. Regarding data files, `events.dat` contains behavioral events along time and `gaze.dat` contains gaze coordinates along time.
 
 ### How to use the plugin
 
@@ -45,8 +45,9 @@ Before anything else, copy the screen_tracker_offline.py file to your
 `pupil_player_settings/plugins/` folder (this folder is created by Pupil and you
 should find it in your `HOME` or `USER` directory).
 
-Then launch Pupil Player with the recording session you are interested in and
-follow these steps:
+Then launch Pupil Player with the recording session you are interested in (you might want to download this [example recording](https://drive.google.com/open?id=15iIx_QB6ZSg0FnWvcD_0XHU6C8Ea3s32)).
+
+Then follow these steps:
 
 a. Click on the 'Plugin Manager' icon on the right of the screen. The name of
 the plugin ("Screen Tracker Offline") should appear in the plugin list. Click on

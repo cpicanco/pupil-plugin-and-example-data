@@ -39,8 +39,7 @@ p1
 
 a tree of data files that can be analyzed through these R scripts.
 
-==========
-How to use the plugin:
+### How to use the plugin
 
 Before anything else, copy the screen_tracker_offline.py file to your
 `pupil_player_settings/plugins/` folder (this folder is created by Pupil and you

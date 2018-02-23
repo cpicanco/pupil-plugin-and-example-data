@@ -11,19 +11,12 @@ screen
    
 ```
 (2)
-check_gaze_drift.r
-get_button_props.r
-get_gaze_props.r
-util_correct.r
-util_obtain.r
+r_scripts_and_example_data
 ```
 
-five R scripts for gaze-coordinates correction and analysis (the first three are
-data-analysis scripts, the last two are script utilities called by the former;
-`util_correct.r` contains source code for cloud-center correction)
+a folder containing R scripts for gaze-coordinates correction and analysis a tree of data files that can be analyzed through these R scripts. Regarding data files, `events.dat` contains behavioral events along time and `gaze.dat` contains gaze coordinates along time:
 
 ```
-(3)
 p1
 ├── p1_1
 │   ├── events.dat
@@ -37,7 +30,32 @@ p1
 ...
 ```
 
-a tree of data files that can be analyzed through these R scripts. Regarding data files, `events.dat` contains behavioral events along time and `gaze.dat` contains gaze coordinates along time.
+### How to use R scripts
+
+Thera are three main scripts, namely
+
+```
+(1)
+check_gaze_drift.r
+```
+
+for cloud-center correction
+
+```
+(2)
+get_button_props.r
+```
+
+containing data analysis of button pressing proportions and
+
+```
+(3)
+get_gaze_props.r
+```
+
+containing data analysis of gaze proportions.
+
+The remaining two scripts (`util_correct.r` and `util_obtain.r`) are utilities called by the main scripts; for example, `util_correct.r` contains source code for cloud-center correction.
 
 ### How to use the plugin
 

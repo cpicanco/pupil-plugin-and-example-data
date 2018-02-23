@@ -14,7 +14,7 @@ screen
 r_scripts_and_example_data
 ```
 
-a folder containing R scripts for gaze-coordinates correction and analysis a tree of data files that can be analyzed through these R scripts. Regarding data files, `events.dat` contains behavioral events along time and `gaze.dat` contains gaze coordinates along time:
+a folder containing R scripts for gaze-coordinates correction and analysis and a tree of data files that can be analyzed through these R scripts. Regarding data files, `events.dat` contains behavioral events along time and `gaze.dat` contains gaze coordinates along time:
 
 ```
 p1

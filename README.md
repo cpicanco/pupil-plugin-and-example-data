@@ -14,7 +14,7 @@ screen
 r_scripts_and_example_data
 ```
 
-a folder containing R scripts for gaze-coordinates correction and analysis, plus a tree of data files that can be analyzed with these R scripts. Regarding data files, `events.dat` contains stimulus events and button presses along time, wheras `gaze.dat` contains normalized gaze coordinates along time:
+a folder containing R scripts for gaze-coordinates correction and analysis, plus a tree of data files that can be analyzed with these R scripts. Regarding data files, `events.dat` contains stimulus events and button presses along time, whereas `gaze.dat` contains normalized gaze coordinates along time:
 
 ```
 p1

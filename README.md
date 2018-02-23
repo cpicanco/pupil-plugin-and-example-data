@@ -28,14 +28,14 @@ p1
     ├── events.dat
     └── gaze.dat
 ...
- 
+
 ```
 
 The file tree is organized in such a way that each subject (e.g., p1, p2, p3..) and each experimental condition (e.g., p1_1, p1_2 and p1_3) has its own folder. 
 
 ### How to use R scripts
 
-Thera are three main scripts, namely
+There are three main scripts, namely
 
 ```
 (1)
